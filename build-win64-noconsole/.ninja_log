@@ -1,0 +1,26 @@
+# ninja log v5
+4	87	1594563528044971700	app/a172ced@@vcast@exe/src_control_msg.c.obj	70307809d84727ab
+11	91	1594563528043970400	app/a172ced@@vcast@exe/src_fps_counter.c.obj	14dcacf65bc934d9
+8	123	1594563528077000700	app/a172ced@@vcast@exe/src_device_msg.c.obj	bde1b53933c1f14e
+9	128	1594563528078002000	app/a172ced@@vcast@exe/src_event_converter.c.obj	957055d33d16362c
+6	167	1594563528123043100	app/a172ced@@vcast@exe/src_decoder.c.obj	98210b2f9b6ec2c9
+17	228	1594563528177091800	app/a172ced@@vcast@exe/src_recorder.c.obj	f719914cffaa0371
+125	288	1594563528244152800	app/a172ced@@vcast@exe/src_video_buffer.c.obj	a7765b80d6c3adc4
+92	725	1594563528677548700	app/a172ced@@vcast@exe/src_tiny_xpm.c.obj	53d23dcb25acc215
+14	1061	1594563529016857500	app/a172ced@@vcast@exe/src_opengl.c.obj	6475efb3b115e19
+22	1140	1594563529087922400	app/a172ced@@vcast@exe/src_screen.c.obj	7d10425e76b472b8
+7	1347	1594563529301114500	app/a172ced@@vcast@exe/src_device.c.obj	be0eac8c642f659a
+10	1423	1594563529377694500	app/a172ced@@vcast@exe/src_file_handler.c.obj	188813bd01a99ef1
+15	1424	1594563529377694500	app/a172ced@@vcast@exe/src_receiver.c.obj	e028c8a85992f067
+3	1555	1594563529509814800	app/a172ced@@vcast@exe/src_command.c.obj	16fe25a5ebb4932d
+25	1604	1594563529560861200	app/a172ced@@vcast@exe/src_server.c.obj	d2ee8a358d575d79
+5	1615	1594563529570870700	app/a172ced@@vcast@exe/src_controller.c.obj	749fa036adc6eb39
+12	1642	1594563529596894000	app/a172ced@@vcast@exe/src_input_manager.c.obj	11a6a3cc00429ae8
+2	1713	1594563529668959000	app/a172ced@@vcast@exe/src_cli.c.obj	8426dc545e0a492c
+1	1729	1594563529685976800	app/a172ced@@vcast@exe/src_main.c.obj	7ed7cc2af56d2fd9
+130	1736	1594563529691981600	app/a172ced@@vcast@exe/src_util_net.c.obj	ad2cfcb24f92e544
+168	1750	1594563529705993200	app/a172ced@@vcast@exe/src_util_str_util.c.obj	117785a0fd8bb205
+89	1751	1594563529707994200	app/a172ced@@vcast@exe/src_stream.c.obj	f98a69ae839ea838
+228	1812	1594563529768048500	app/a172ced@@vcast@exe/src_sys_win_command.c.obj	a35204e627ae8300
+19	1875	1594563529831107300	app/a172ced@@vcast@exe/src_vcast.c.obj	bbe3eb7be456ed10
+1875	2870	1594563530825452000	app/vcast.exe	a495de6cc693c333

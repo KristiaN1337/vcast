@@ -1,0 +1,6 @@
+[options]
+compile_app = false
+buildtype = release
+
+[properties]
+

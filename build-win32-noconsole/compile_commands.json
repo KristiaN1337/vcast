@@ -1,0 +1,146 @@
+[
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_main.c.obj' -MF 'app/a172ced@@vcast@exe/src_main.c.obj.d' -o 'app/a172ced@@vcast@exe/src_main.c.obj' -c ../app/src/main.c",
+    "file": "../app/src/main.c",
+    "output": "app/a172ced@@vcast@exe/src_main.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_cli.c.obj' -MF 'app/a172ced@@vcast@exe/src_cli.c.obj.d' -o 'app/a172ced@@vcast@exe/src_cli.c.obj' -c ../app/src/cli.c",
+    "file": "../app/src/cli.c",
+    "output": "app/a172ced@@vcast@exe/src_cli.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_command.c.obj' -MF 'app/a172ced@@vcast@exe/src_command.c.obj.d' -o 'app/a172ced@@vcast@exe/src_command.c.obj' -c ../app/src/command.c",
+    "file": "../app/src/command.c",
+    "output": "app/a172ced@@vcast@exe/src_command.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_control_msg.c.obj' -MF 'app/a172ced@@vcast@exe/src_control_msg.c.obj.d' -o 'app/a172ced@@vcast@exe/src_control_msg.c.obj' -c ../app/src/control_msg.c",
+    "file": "../app/src/control_msg.c",
+    "output": "app/a172ced@@vcast@exe/src_control_msg.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_controller.c.obj' -MF 'app/a172ced@@vcast@exe/src_controller.c.obj.d' -o 'app/a172ced@@vcast@exe/src_controller.c.obj' -c ../app/src/controller.c",
+    "file": "../app/src/controller.c",
+    "output": "app/a172ced@@vcast@exe/src_controller.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_decoder.c.obj' -MF 'app/a172ced@@vcast@exe/src_decoder.c.obj.d' -o 'app/a172ced@@vcast@exe/src_decoder.c.obj' -c ../app/src/decoder.c",
+    "file": "../app/src/decoder.c",
+    "output": "app/a172ced@@vcast@exe/src_decoder.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_device.c.obj' -MF 'app/a172ced@@vcast@exe/src_device.c.obj.d' -o 'app/a172ced@@vcast@exe/src_device.c.obj' -c ../app/src/device.c",
+    "file": "../app/src/device.c",
+    "output": "app/a172ced@@vcast@exe/src_device.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_device_msg.c.obj' -MF 'app/a172ced@@vcast@exe/src_device_msg.c.obj.d' -o 'app/a172ced@@vcast@exe/src_device_msg.c.obj' -c ../app/src/device_msg.c",
+    "file": "../app/src/device_msg.c",
+    "output": "app/a172ced@@vcast@exe/src_device_msg.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_event_converter.c.obj' -MF 'app/a172ced@@vcast@exe/src_event_converter.c.obj.d' -o 'app/a172ced@@vcast@exe/src_event_converter.c.obj' -c ../app/src/event_converter.c",
+    "file": "../app/src/event_converter.c",
+    "output": "app/a172ced@@vcast@exe/src_event_converter.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_file_handler.c.obj' -MF 'app/a172ced@@vcast@exe/src_file_handler.c.obj.d' -o 'app/a172ced@@vcast@exe/src_file_handler.c.obj' -c ../app/src/file_handler.c",
+    "file": "../app/src/file_handler.c",
+    "output": "app/a172ced@@vcast@exe/src_file_handler.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_fps_counter.c.obj' -MF 'app/a172ced@@vcast@exe/src_fps_counter.c.obj.d' -o 'app/a172ced@@vcast@exe/src_fps_counter.c.obj' -c ../app/src/fps_counter.c",
+    "file": "../app/src/fps_counter.c",
+    "output": "app/a172ced@@vcast@exe/src_fps_counter.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_input_manager.c.obj' -MF 'app/a172ced@@vcast@exe/src_input_manager.c.obj.d' -o 'app/a172ced@@vcast@exe/src_input_manager.c.obj' -c ../app/src/input_manager.c",
+    "file": "../app/src/input_manager.c",
+    "output": "app/a172ced@@vcast@exe/src_input_manager.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_opengl.c.obj' -MF 'app/a172ced@@vcast@exe/src_opengl.c.obj.d' -o 'app/a172ced@@vcast@exe/src_opengl.c.obj' -c ../app/src/opengl.c",
+    "file": "../app/src/opengl.c",
+    "output": "app/a172ced@@vcast@exe/src_opengl.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_receiver.c.obj' -MF 'app/a172ced@@vcast@exe/src_receiver.c.obj.d' -o 'app/a172ced@@vcast@exe/src_receiver.c.obj' -c ../app/src/receiver.c",
+    "file": "../app/src/receiver.c",
+    "output": "app/a172ced@@vcast@exe/src_receiver.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_recorder.c.obj' -MF 'app/a172ced@@vcast@exe/src_recorder.c.obj.d' -o 'app/a172ced@@vcast@exe/src_recorder.c.obj' -c ../app/src/recorder.c",
+    "file": "../app/src/recorder.c",
+    "output": "app/a172ced@@vcast@exe/src_recorder.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_vcast.c.obj' -MF 'app/a172ced@@vcast@exe/src_vcast.c.obj.d' -o 'app/a172ced@@vcast@exe/src_vcast.c.obj' -c ../app/src/vcast.c",
+    "file": "../app/src/vcast.c",
+    "output": "app/a172ced@@vcast@exe/src_vcast.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_screen.c.obj' -MF 'app/a172ced@@vcast@exe/src_screen.c.obj.d' -o 'app/a172ced@@vcast@exe/src_screen.c.obj' -c ../app/src/screen.c",
+    "file": "../app/src/screen.c",
+    "output": "app/a172ced@@vcast@exe/src_screen.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_server.c.obj' -MF 'app/a172ced@@vcast@exe/src_server.c.obj.d' -o 'app/a172ced@@vcast@exe/src_server.c.obj' -c ../app/src/server.c",
+    "file": "../app/src/server.c",
+    "output": "app/a172ced@@vcast@exe/src_server.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_stream.c.obj' -MF 'app/a172ced@@vcast@exe/src_stream.c.obj.d' -o 'app/a172ced@@vcast@exe/src_stream.c.obj' -c ../app/src/stream.c",
+    "file": "../app/src/stream.c",
+    "output": "app/a172ced@@vcast@exe/src_stream.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_tiny_xpm.c.obj' -MF 'app/a172ced@@vcast@exe/src_tiny_xpm.c.obj.d' -o 'app/a172ced@@vcast@exe/src_tiny_xpm.c.obj' -c ../app/src/tiny_xpm.c",
+    "file": "../app/src/tiny_xpm.c",
+    "output": "app/a172ced@@vcast@exe/src_tiny_xpm.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_video_buffer.c.obj' -MF 'app/a172ced@@vcast@exe/src_video_buffer.c.obj.d' -o 'app/a172ced@@vcast@exe/src_video_buffer.c.obj' -c ../app/src/video_buffer.c",
+    "file": "../app/src/video_buffer.c",
+    "output": "app/a172ced@@vcast@exe/src_video_buffer.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_util_net.c.obj' -MF 'app/a172ced@@vcast@exe/src_util_net.c.obj.d' -o 'app/a172ced@@vcast@exe/src_util_net.c.obj' -c ../app/src/util/net.c",
+    "file": "../app/src/util/net.c",
+    "output": "app/a172ced@@vcast@exe/src_util_net.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_util_str_util.c.obj' -MF 'app/a172ced@@vcast@exe/src_util_str_util.c.obj.d' -o 'app/a172ced@@vcast@exe/src_util_str_util.c.obj' -c ../app/src/util/str_util.c",
+    "file": "../app/src/util/str_util.c",
+    "output": "app/a172ced@@vcast@exe/src_util_str_util.c.obj"
+  },
+  {
+    "directory": "/mnt/i/Desktop/vcast/build-win32-noconsole",
+    "command": "/usr/bin/i686-w64-mingw32-gcc -Iapp/a172ced@@vcast@exe -Iapp -I../app -I../app/src -I../prebuilt-deps/ffmpeg-4.2.2-win32-dev/include -I../prebuilt-deps/SDL2-2.0.12/i686-w64-mingw32/include -flto -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -std=c11 -O3 -MD -MQ 'app/a172ced@@vcast@exe/src_sys_win_command.c.obj' -MF 'app/a172ced@@vcast@exe/src_sys_win_command.c.obj.d' -o 'app/a172ced@@vcast@exe/src_sys_win_command.c.obj' -c ../app/src/sys/win/command.c",
+    "file": "../app/src/sys/win/command.c",
+    "output": "app/a172ced@@vcast@exe/src_sys_win_command.c.obj"
+  }
+]

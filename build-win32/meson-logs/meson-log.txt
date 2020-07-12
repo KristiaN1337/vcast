@@ -1,0 +1,199 @@
+Build started at 2020-07-12T15:18:33.266447
+Main binary: /usr/bin/python
+Build Options: -Db_lto=true -Dcrossbuild_windows=true -Dcompile_server=false -Dportable=true -Dbuildtype=release -Dstrip=True '--cross-file cross_win32.txt'
+Python system: Linux
+The Meson build system
+Version: 0.54.3
+Source dir: /mnt/i/Desktop/vcast
+Build dir: /mnt/i/Desktop/vcast/build-win32
+Build type: cross build
+None of 'PKG_CONFIG_PATH_FOR_BUILD' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: vcast
+Project version: 1.14
+None of 'CC_FOR_BUILD' are defined in the environment, not changing global flags.
+None of 'CFLAGS_FOR_BUILD' are defined in the environment, not changing global flags.
+None of 'LDFLAGS_FOR_BUILD' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS_FOR_BUILD' are defined in the environment, not changing global flags.
+None of 'CC_LD_FOR_BUILD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /mnt/i/Desktop/vcast/build-win32/meson-private/sanitycheckc.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /mnt/i/Desktop/vcast/build-win32/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 10.1.0 "cc (GCC) 10.1.0")
+C linker for the build machine: cc ld.bfd 2.34.0
+None of 'AR_FOR_BUILD' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: /usr/bin/i686-w64-mingw32-gcc
+Is cross compiler: True.
+Sanity check compiler command line: /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/sanitycheckc.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/sanitycheckc_cross.exe -pipe -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: /usr/bin/i686-w64-mingw32-gcc (gcc 10.1.0 "i686-w64-mingw32-gcc (GCC) 10.1.0")
+C linker for the host machine: /usr/bin/i686-w64-mingw32-gcc ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86
+Host machine cpu: i686
+Target machine cpu family: x86
+Target machine cpu: i686
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmpkgz2nsli
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmpkgz2nsli/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmpkgz2nsli/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) {
+            void * something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmpouejwkv_
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmpouejwkv_/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmpouejwkv_/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmp8jaqyo7v
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmp8jaqyo7v/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmp8jaqyo7v/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmp7d1ct0c4
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmp7d1ct0c4/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmp7d1ct0c4/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmpu2674o3v
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmpu2674o3v/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmpu2674o3v/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmpcu1s2tj0
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmpcu1s2tj0/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmpcu1s2tj0/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /mnt/i/Desktop/vcast/build-win32/meson-private/tmpcu1s2tj0/testfile.c: In function 'main':
+/mnt/i/Desktop/vcast/build-win32/meson-private/tmpcu1s2tj0/testfile.c:3:37: error: size of array 'a' is negative
+    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+      |                                     ^
+
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmp4n6zt71x
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmp4n6zt71x/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmp4n6zt71x/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 5)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmparybllx8
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmparybllx8/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmparybllx8/output.obj -pipe -c -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 4)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmpd0vsr8ly
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmpd0vsr8ly/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmpd0vsr8ly/output.obj -pipe -c -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/i686-w64-mingw32/10.1.0/
+programs: =/usr/lib/gcc/i686-w64-mingw32/10.1.0/:/usr/lib/gcc/i686-w64-mingw32/10.1.0/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/10.1.0/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/10.1.0/../../../../i686-w64-mingw32/bin/i686-w64-mingw32/10.1.0/:/usr/lib/gcc/i686-w64-mingw32/10.1.0/../../../../i686-w64-mingw32/bin/
+libraries: =/usr/lib/gcc/i686-w64-mingw32/10.1.0/:/usr/lib/gcc/i686-w64-mingw32/10.1.0/../../../../i686-w64-mingw32/lib/i686-w64-mingw32/10.1.0/:/usr/lib/gcc/i686-w64-mingw32/10.1.0/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/10.1.0/../../../../i686-w64-mingw32/lib/
+
+Compiler stderr:
+ 
+Library SDL2 found: YES
+Library SDL2main found: YES
+Library avcodec-58 found: YES
+Library avformat-58 found: YES
+Library avutil-56 found: YES
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmp156tj802
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmp156tj802/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmp156tj802/output.exe -pipe -O0 -Wl,--start-group -lmingw32 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library mingw32 found: YES
+Running compile:
+Working directory:  /mnt/i/Desktop/vcast/build-win32/meson-private/tmpj4_l_99n
+Command line:  /usr/bin/i686-w64-mingw32-gcc /mnt/i/Desktop/vcast/build-win32/meson-private/tmpj4_l_99n/testfile.c -o /mnt/i/Desktop/vcast/build-win32/meson-private/tmpj4_l_99n/output.exe -pipe -O0 -Wl,--start-group -lws2_32 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library ws2_32 found: YES
+Configuring config.h using configuration
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/sbin/ninja
