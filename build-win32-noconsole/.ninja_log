@@ -1,0 +1,26 @@
+# ninja log v5
+5	82	1594563518046099400	app/a172ced@@vcast@exe/src_control_msg.c.obj	88a9b997b93f04a7
+10	88	1594563518056108700	app/a172ced@@vcast@exe/src_device_msg.c.obj	fc81397745005ab2
+13	121	1594563518086135900	app/a172ced@@vcast@exe/src_fps_counter.c.obj	e84e39e089857ee3
+11	130	1594563518098146800	app/a172ced@@vcast@exe/src_event_converter.c.obj	5b720041157c3488
+7	208	1594563518169211100	app/a172ced@@vcast@exe/src_decoder.c.obj	f226b4cda4ab0f91
+21	286	1594563518252287100	app/a172ced@@vcast@exe/src_recorder.c.obj	a4641bb380da41f1
+121	323	1594563518257291700	app/a172ced@@vcast@exe/src_video_buffer.c.obj	bbbd7fa8196b9006
+90	856	1594563518820310900	app/a172ced@@vcast@exe/src_tiny_xpm.c.obj	3c558e9dd12ac3c4
+6	1073	1594563519021004400	app/a172ced@@vcast@exe/src_controller.c.obj	146a54cba649777a
+3	1096	1594563519063042400	app/a172ced@@vcast@exe/src_command.c.obj	94ec6bcf6e8db4c3
+12	1109	1594563519076056000	app/a172ced@@vcast@exe/src_file_handler.c.obj	edbcb4c6c71266bc
+18	1123	1594563519090067500	app/a172ced@@vcast@exe/src_opengl.c.obj	ecdf22ecf7583866
+8	1127	1594563519095072400	app/a172ced@@vcast@exe/src_device.c.obj	b8d23f9e8a448ee3
+19	1191	1594563519155126600	app/a172ced@@vcast@exe/src_receiver.c.obj	65e3aabb93287760
+132	1196	1594563519164134200	app/a172ced@@vcast@exe/src_util_net.c.obj	eb00e313707bd044
+29	1204	1594563519171451300	app/a172ced@@vcast@exe/src_server.c.obj	4f992fae699e3c28
+84	1247	1594563519214711900	app/a172ced@@vcast@exe/src_stream.c.obj	91ccd774250777a1
+26	1262	1594563519229732700	app/a172ced@@vcast@exe/src_screen.c.obj	80da083b725e3859
+214	1263	1594563519230733500	app/a172ced@@vcast@exe/src_util_str_util.c.obj	323a37c96d7bfe74
+296	1320	1594563519288165100	app/a172ced@@vcast@exe/src_sys_win_command.c.obj	b4737afa85048c75
+1	1625	1594563519592319000	app/a172ced@@vcast@exe/src_main.c.obj	469e54d363a2fca3
+2	1690	1594563519657377200	app/a172ced@@vcast@exe/src_cli.c.obj	9645b77a4391f786
+23	1719	1594563519686409100	app/a172ced@@vcast@exe/src_vcast.c.obj	6705387446af6ca8
+15	1740	1594563519708429600	app/a172ced@@vcast@exe/src_input_manager.c.obj	25a8ab1452208ea2
+1741	2702	1594563520668544700	app/vcast.exe	fa5ef1514f560083

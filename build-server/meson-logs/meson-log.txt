@@ -1,0 +1,61 @@
+Build started at 2020-07-12T15:18:28.105706
+Main binary: /usr/bin/python
+Build Options: -Dcompile_app=false -Dbuildtype=release
+Python system: Linux
+The Meson build system
+Version: 0.54.3
+Source dir: /mnt/i/Desktop/vcast
+Build dir: /mnt/i/Desktop/vcast/build-server
+Build type: native build
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: vcast
+Project version: 1.14
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /mnt/i/Desktop/vcast/build-server/meson-private/sanitycheckc.c -o /mnt/i/Desktop/vcast/build-server/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /mnt/i/Desktop/vcast/build-server/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 10.1.0 "cc (GCC) 10.1.0")
+C linker for the build machine: cc ld.bfd 2.34.0
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /mnt/i/Desktop/vcast/build-server/meson-private/sanitycheckc.c -o /mnt/i/Desktop/vcast/build-server/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /mnt/i/Desktop/vcast/build-server/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 10.1.0 "cc (GCC) 10.1.0")
+C linker for the host machine: cc ld.bfd 2.34.0
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program ./scripts/build-wrapper.sh found: YES (/mnt/i/Desktop/vcast/server/./scripts/build-wrapper.sh)
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/sbin/ninja
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.

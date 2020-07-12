@@ -1,0 +1,11 @@
+[options]
+b_lto = true
+crossbuild_windows = true
+compile_server = false
+portable = true
+buildtype = release
+strip = True
+
+[properties]
+cross_file = ['cross_win64.txt']
+
