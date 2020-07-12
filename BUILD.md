@@ -182,11 +182,6 @@ export JAVA_HOME="$(/usr/libexec/java_home --version 1.8)"
 export PATH="$JAVA_HOME/bin:$PATH"
 ```
 
-### Docker
-
-See [pierlon/vcast-docker](https://github.com/pierlon/vcast-docker).
-
-
 ## Common steps
 
 If you want to build the server, install the [Android SDK] (_Android Studio_),
